@@ -48,3 +48,5 @@ function quick (array, left, right) {
 function quickSort (array) {
   return quick(array, 0, array.length - 1)
 }
+
+module.exports = quickSort
