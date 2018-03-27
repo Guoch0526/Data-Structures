@@ -108,7 +108,7 @@ function Set () {
     if (this.size() > otherSet.size()) {
       return false
     } else {
-      let values = this.values
+      let values = this.values()
       for (let i = 0, len = values.length; i < len; i++) {
         if (!otherSet.has(values[i])) return false
       }

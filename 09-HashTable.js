@@ -3,7 +3,7 @@
  * 解决冲突：分离链接法(散列表的每一项由链表来存储数据)
  */
 
-let LinkedList = require('./01-LinkedList')
+let LinkedList = require('./04-LinkedList')
 
 function HashTable() {
   let table = []
